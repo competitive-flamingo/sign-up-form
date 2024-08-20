@@ -23,7 +23,49 @@
                 <p>You know you want to.</p>
             </div>
         </div>
-        <form action=""></form>
+        <div class="second-section">
+            <form action="" method="get" id="sign-up-form">
+                <h1>Let's do this!</h1>
+                <div class="form-row">
+                    <div class="first-name">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="fisrt-name" name="first-name" required>
+                    </div>
+                    <div class="last-name">
+                        <label for="second-name">LAST NAME</label>
+                        <input type="text" id="second-name" name="second-name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="email">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="phone-number">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phone-number" required>
+                    </div>
+                </div>
+                <div class="form-row relative">
+                    <div class="password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                        <p></p>
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="third-section">
+            <div class="account">
+                <button type="submit" form="sign-up-form">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
